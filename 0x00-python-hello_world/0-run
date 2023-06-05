@@ -1,2 +1,3 @@
-#!/usr/bin
-python3 $PYFILE
+#!/usr/bin/python3
+PYFILE="0-run.py"
+exec(open(PYFILE).read())
