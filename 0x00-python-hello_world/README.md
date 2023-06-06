@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # alx-higher_level_programming
 ## 0x00. Python - Hello, World
 
@@ -68,13 +66,3 @@ followed by a new line
 You are not allowed to cast number to string
 You have to use f-strings
 * File: 4-print_float.py
-=======
-# Alx-higher_level_programming
-## Python Programming 
-###  This repository contains all projects on python programming language
-## Projects
-
-###  0x00. Python - Hello, World
-
-This project consists of basic introduction to python(python script)
->>>>>>> e871ec20aa1cb36135683f87d18bc9e95b2417e0
