@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 from sys import argv
-argc = len(argv) - 1
 
 
 def sum_args():
