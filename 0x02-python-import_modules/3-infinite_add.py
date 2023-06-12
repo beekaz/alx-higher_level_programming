@@ -3,6 +3,7 @@ import sys
 
 argc = len(sys.argv) - 1
 
+
 def sum_args():
     sum = 0
     for i in range(1, len(sys.argv)):
