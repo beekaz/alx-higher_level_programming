@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-from sys import argv
-argc = len(argv) - 1
-
+import sys
+argc = len(sys.argv) - 1
 def sum_args():
     sum = 0
-    for i in range(1, len(argv)):
-        sum += int(argv[i])
+    for i in range(1, len(sys.argv)):
+        sum += int(sys.argv[i])
     return sum
 
 if __name__ == "__main__":
