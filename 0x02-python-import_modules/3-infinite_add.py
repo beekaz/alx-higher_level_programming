@@ -9,7 +9,7 @@ def sum_args():
         total_sum += int(sys.argv[i])
     return total_sum
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     if argc == 0:
         print("{:d}".format(argc))
     else:
