@@ -4,13 +4,11 @@
 
 
 class Square:
-	"""this defines a square"""
-	def __init__(self, size):
-	    self.__size = size
-	"""
+    """this defines a square"""
+    def __init__(self, size):
+        self.__size = size
+        """
         Private instance attribute: size
         Instantiation with size
         (no type/value verification)
         """
-
-
