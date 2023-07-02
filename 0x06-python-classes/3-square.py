@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-	"""
-	Define a class Square based on the size
-	"""
+"""
+Define a class Square based on the size
+"""
 
 
 class Square:
