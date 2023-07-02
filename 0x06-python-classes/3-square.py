@@ -3,6 +3,7 @@
 	Define a class Square based on the size
 	"""
 
+
 class Square:
     """module represent a square."""
 
