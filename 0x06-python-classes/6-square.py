@@ -62,7 +62,7 @@ class Square:
             value (int): value int
         Returns:
             Area
-        Raises: 
+        Raises:
            Typeerro: if value is not an integer
            Valueerror: if value is less than )
         """
