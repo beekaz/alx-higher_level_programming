@@ -8,9 +8,9 @@ class Square:
     """
     The module writes a class Square
     Attributes:
-	size(int): The size of the square
+               size(int): The size of the square
     Methods:
-        __init__(self, size=0): Initializes a new Square 
+        __init__(self, size=0): Initializes a new Square
         instance with a given size.
     """
     def __init__(self, size=0):
