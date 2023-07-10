@@ -35,11 +35,14 @@ class Square:
         return self.__size ** 2
 
     def __eq__(self, other):
-        """Check if the area of the instance is the same as the area of 'other'.
+        """
+        Check if the area of the instance is the same
+        as the area of 'other'.
 
         Returns:
-            bool: The return Value. True if self.area == other.area. False
-                otherwise, or 'other' is not of type Square.
+            bool: The return Value.
+            True if self.area == other.area. False
+            otherwise, or 'other' is not of type Square.
         """
         if isinstance(other, Square):
             if self.area() == other.area():
@@ -50,12 +53,14 @@ class Square:
             return False
 
     def __ne__(self, other):
-        """Check if the area of the instance is not the same as the area of
-            'other'.
+        """
+        Check if the area of the instance is not the same
+        as the area of 'other'.
 
         Returns:
-            bool: The return Value. True if self.area != other.area. False
-                otherwise, or 'other' is not of type Square.
+            bool: The return Value.
+            True if self.area != other.area. False
+            otherwise, or 'other' is not of type Square.
         """
         if isinstance(other, Square):
             if self.area() != other.area():
@@ -66,11 +71,14 @@ class Square:
             return False
 
     def __gt__(self, other):
-        """Check if the area of the instance is greater than the area of 'other'.
+        """
+        Check if the area of the instance is greater than
+        the area of 'other'.
 
         Returns:
-            bool: The return Value. True if self.area > other.area. False
-                otherwise, or 'other' is not of type Square.
+            bool: The return Value.
+            True if self.area > other.area. False
+            otherwise, or 'other' is not of type Square.
         """
         if isinstance(other, Square):
             if self.area() > other.area():
@@ -81,12 +89,14 @@ class Square:
             return False
 
     def __ge__(self, other):
-        """Check if the area of the instance is greater than or equal to the
+        """Check if the area of the instance is greater than
+        or equal to the
             area of 'other'.
 
         Returns:
-            bool: The return Value. True if self.area >= other.area. False
-                otherwise, or 'other' is not of type Square.
+            bool: The return Value.
+            True if self.area >= other.area. False
+            otherwise, or 'other' is not of type Square.
         """
         if isinstance(other, Square):
             if self.area() >= other.area():
@@ -97,11 +107,13 @@ class Square:
             return False
 
     def __lt__(self, other):
-        """Check if the area of the instance is less than the area of 'other'.
+        """Check if the area of the instance is less than
+        the area of 'other'.
 
         Returns:
-            bool: The return Value. True if self.area < other.area. False
-                otherwise, or 'other' is not of type Square.
+            bool: The return Value.
+            True if self.area < other.area. False
+            otherwise, or 'other' is not of type Square.
         """
         if isinstance(other, Square):
             if self.area() < other.area():
@@ -112,12 +124,14 @@ class Square:
             return False
 
     def __le__(self, other):
-        """Check if the area of the instance is less than or equal to the area
-            of 'other'.
+        """
+        Check if the area of the instance is less than
+        or equal to the area of 'other'.
 
         Returns:
-            bool: The return Value. True if self.area <= other.area. False
-                otherwise, or 'other' is not of type Square.
+            bool: The return Value.
+            True if self.area <= other.area. False
+            otherwise, or 'other' is not of type Square.
         """
         if isinstance(other, Square):
             if self.area() <= other.area():
