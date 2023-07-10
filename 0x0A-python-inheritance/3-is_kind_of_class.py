@@ -5,16 +5,16 @@
 
 
 def is_kind_of_class(obj, a_class):
-    """Check if `obj` is an instance of a `a_class` or a child class that
-    inherits from it.
+    """Check if `obj` is an instance of `a_class` or
+    child class that inherits from it
 
     Args:
-        obj: An object.
-        a_class: A class.
+        obj: An object
+        a_class: A class
 
-    Returns: True if `obj` is an instance a `a_class`, otherwise False.
+    Return: True if `obj` is an instance a `a_class`, otherwise false
     """
     if isinstance(obj, a_class):
         return True
     else:
-        return False 
+        return False
