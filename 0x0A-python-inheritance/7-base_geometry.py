@@ -5,19 +5,23 @@
 
 
 class BaseGeometry:
-    """A class.
+    """
+    A class.
     """
 
     def area(self):
-        """Raises an exception"""
+        """
+        Raises an exception
+        """
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
-        """Checks if value is an integer and if it is > 0.
+        """
+        Checks if value is an integer and if it is > 0.
 
         Args:
-            name (:obj:'str'): String.
-            value (int): An integer.
+            name (:obj:'str'): String
+            value (int): An integer
 
         Raises:
         TypeError: if value is not an integer
