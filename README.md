@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+:WQ<<<<<<< HEAD
 # Alx-higher_level_programming
 ## Python Programming 
 ###  This repository contains all projects on python programming language
